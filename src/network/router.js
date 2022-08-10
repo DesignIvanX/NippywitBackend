@@ -1,9 +1,7 @@
-const newsletter = require("../components/newsletter/network");
-// const form = require("../components/form/network");
+const users = require("../components/users/network");
 
 const router = (server) => {
-  server.use("/api/newsletter/", newsletter);
-  // server.use("/api/form/", form);
+  server.use("/api/users/", users);
 };
 
 module.exports = router;

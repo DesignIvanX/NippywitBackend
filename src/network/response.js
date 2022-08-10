@@ -1,4 +1,4 @@
-const codeStatus = {
+let codeStatus = {
   200: "Done",
   201: "Created",
   400: "Invalid format",
