@@ -26,7 +26,7 @@ app.use(morgan("dev"));
 // Router
 router(app);
 // Static
-// app.use("/", express.static("public"));
+app.use("/", express.static("public"));
 // Port
 app.listen(app.get("PORT"), () => {
   console.log("Is connect");
