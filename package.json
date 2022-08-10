@@ -12,7 +12,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "nodemon ./src/server",
     "start": "node ./src/server"
   },
   "keywords": [],
