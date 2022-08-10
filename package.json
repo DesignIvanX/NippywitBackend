@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ./src/server"
+    "start": "node ./src/server.js"
   },
   "keywords": [],
   "author": "ivandcdesign@gmail.com",
