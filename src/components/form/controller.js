@@ -12,8 +12,8 @@ const addUser = (name, lastName, email, message) => {
       return rej("[Controller - Add]");
     }
     const user = {
-      name,
-      lastName,
+      fullName,
+      number,
       email,
       message,
     };

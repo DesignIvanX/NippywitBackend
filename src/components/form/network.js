@@ -16,7 +16,7 @@ const router = express.Router();
 // });
 
 router.post("/", (req, res) => {
-  const { name, lastName, email, message } = req.body;
+  const { fullName, number, email, message } = req.body;
   controller
     .addUser(fullName, number, email, message)
     .then((data) => {
