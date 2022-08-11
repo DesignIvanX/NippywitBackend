@@ -1,14 +1,14 @@
 const store = require("./store");
 
-const getUsers = () => {
-  return new Promise((res, rej) => {
-    return res(store.getUsers());
-  });
-};
+// const getUsers = () => {
+//   return new Promise((res, rej) => {
+//     return res(store.getUsers());
+//   });
+// };
 
 const addUser = (name, lastName, email, message) => {
   return new Promise((res, rej) => {
-    if (!name || !lastName || !email || !message) {
+    if (!fullName || !number || !email || !message) {
       return rej("[Controller - Add]");
     }
     const user = {
@@ -22,6 +22,6 @@ const addUser = (name, lastName, email, message) => {
 };
 
 module.exports = {
-  getUsers,
+  // getUsers,
   addUser,
 };

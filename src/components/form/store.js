@@ -1,8 +1,8 @@
 const modelSchema = require("./modelSchema");
 
-const getUsers = () => {
-  return modelSchema.find();
-};
+// const getUsers = () => {
+//   return modelSchema.find();
+// };
 
 const addUser = (user) => {
   const myUser = new modelSchema(user);
@@ -10,6 +10,6 @@ const addUser = (user) => {
 };
 
 module.exports = {
-  getUsers,
+  // getUsers,
   addUser,
 };
